@@ -1,0 +1,65 @@
+# =========================================
+# ✅ NEXT.JS + TAILWIND PORTFOLIO (2025)
+# =========================================
+
+# Node.js dependencies
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Next.js build output
+.next/
+out/
+.vercel/
+
+# Build and production
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Coverage reports
+coverage/
+
+# Environment variables (keep private)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# macOS system files
+.DS_Store
+
+# SSL Certificates
+*.pem
+
+# TypeScript build info
+*.tsbuildinfo
+next-env.d.ts
+
+# Editor & IDE settings
+.vscode/
+.idea/
+*.swp
+
+# =========================================
+# ✅ Keep these folders in GitHub
+# app/
+# public/
+# assets/
+# components/
+# styles/
+# config files like:
+#   package.json, next.config.mjs, tailwind.config.mjs
+# =========================================
