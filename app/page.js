@@ -14,10 +14,26 @@ import Work from './component/Work'
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false)
+  const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
-    document.documentElement.classList.toggle('dark', darkMode)
-  }, [darkMode])
+    setMounted(true)
+    const savedTheme = localStorage.getItem('darkMode')
+    if (savedTheme) {
+      setDarkMode(JSON.parse(savedTheme))
+    }
+  }, [])
+
+  useEffect(() => {
+    if (mounted) {
+      document.documentElement.classList.toggle('dark', darkMode)
+      localStorage.setItem('darkMode', JSON.stringify(darkMode))
+    }
+  }, [darkMode, mounted])
+
+  if (!mounted) {
+    return null
+  }
 
   return (
     <>

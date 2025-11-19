@@ -4,7 +4,6 @@ import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React, { useState, useEffect } from 'react'
 
-
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
   const [isScroll, setIsScroll] = useState(false)
@@ -59,8 +58,6 @@ const Navbar = () => {
 
         {/* Right Icons */}
         <div className='flex items-center gap-4'>
-         
-
           {/* Contact Button */}
           <a 
             href="#contact" 
