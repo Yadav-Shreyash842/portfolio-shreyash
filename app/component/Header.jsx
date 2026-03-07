@@ -35,7 +35,7 @@ const Header = () => {
         </a>
 
         <a
-          href="/resume-2026.pdf"
+          href="/ShreyashYadav_MERN_resume.pdf"
           download
           className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'
         >
@@ -48,3 +48,4 @@ const Header = () => {
 }
 
 export default Header
+

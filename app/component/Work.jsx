@@ -21,6 +21,7 @@ const Work = () => {
           <a
             key={index}
             href={project.link || '#'}
+            
             target="_blank"
             rel="noopener noreferrer"
             className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden shadow-md hover:shadow-xl transition-all duration-300"
