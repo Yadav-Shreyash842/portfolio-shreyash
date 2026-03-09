@@ -82,6 +82,7 @@ export const workData = [
     //     description: 'Web Design',
     //     bgImage: '/work-1.png',
     // },
+    
     // {
     //     title: 'Geo based app',
     //     description: 'Mobile App',
@@ -102,6 +103,12 @@ export const workData = [
         description: 'Real-time Chat Application',
         bgImage: '/work-5.png',
         link: 'https://quick-chat-client-lilac.vercel.app'
+    },
+    {
+        title: 'Visitor Pass System',
+        description: 'Visitor Management Dashboard',
+        bgImage: '/work-visitor-pass.jpg', // You can change to .jpg if you prefer
+        link: 'https://visitor-pass-client.vercel.app/dashboard'
     }
 ]
 
