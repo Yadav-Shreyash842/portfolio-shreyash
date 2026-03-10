@@ -23,7 +23,7 @@ const About = () => {
         <div className='flex-1 text-gray-700 font-ovo text-lg'>
           <p className='mb-6'>
             I'm Yadav Shreyash, an aspiring frontend and backend web developer with experience in building responsive, user-friendly web applications.
-            I specialize in HTML, CSS, JavaScript, React, and Node.js. I enjoy solving problems, learning new technologies, and working on meaningful projects.
+            I specialize in HTML, CSS, JavaScript, React, and Node.js , Express , mongoDb. I enjoy solving problems, learning new technologies, and working on meaningful projects.
             My goal is to continuously improve and grow as a developer while contributing to impactful and collaborative teams.
           </p>
 

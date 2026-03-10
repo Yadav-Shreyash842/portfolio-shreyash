@@ -19,10 +19,24 @@ const Header = () => {
       </h1>
 
       <p className='max-w-2xl mx-auto font-ovo text-gray-700'>
-        I am Yadav Shreyash, an aspiring Web Developer with a strong foundation in front-end and back-end technologies, including HTML, CSS, JavaScript, 
-        and basic knowledge of frameworks like React and Node.js. Passionate about building user-friendly, responsive websites and continuously learning new 
-        tools and technologies. Completed hands-on projects and coursework demonstrating my ability to design, develop, and maintain web applications. 
-        Eager to contribute to a dynamic development team and grow professionally in a collaborative environment.
+      <p className='mb-6'>
+I’m Shreyash Yadav, a passionate MERN Stack Developer based in Surat, India. 
+I specialize in building modern, responsive, and scalable web applications 
+using React, Node.js, Express, and MongoDB.
+
+Currently working as a MERN Developer Intern, I focus on transforming ideas 
+and designs into clean, high-performance web experiences. I enjoy solving 
+complex problems, developing real-time features, and creating intuitive user interfaces.
+
+I have experience building full-stack applications including authentication 
+systems, REST APIs, and real-time platforms. Some of my key projects include 
+a real-time Chat Application with messaging and video calling using Socket.IO 
+and WebRTC, and a Visitor Pass Management System that allows organizations 
+to manage visitor check-ins, approvals, and tracking efficiently.
+
+My goal is to continuously grow as a developer, contribute to impactful 
+projects, and become a strong full-stack engineer in modern web development.
+</p>
       </p>
 
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
